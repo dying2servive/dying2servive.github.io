@@ -11,24 +11,6 @@
               我不是药神（青春版）
             </h1>
           </div>
-          <div class="flex items-center space-x-2 sm:space-x-3">
-            <button @click="showInstallPrompt" v-if="installPrompt"
-              class="hidden sm:flex items-center backdrop-blur-md bg-white/80 text-gray-700 px-3 py-2 rounded-lg hover:bg-white/90 transition-all duration-200 border border-white/30 shadow-sm">
-              <Download class="h-4 w-4 inline mr-1 sm:mr-2" />
-              <span class="hidden md:inline">安装应用</span>
-              <span class="md:hidden">安装</span>
-            </button>
-            <button @click="showInstallPrompt" v-if="installPrompt"
-              class="sm:hidden backdrop-blur-md bg-white/80 text-gray-700 p-2 rounded-lg hover:bg-white/90 transition-all duration-200 border border-white/30 shadow-sm">
-              <Download class="h-4 w-4" />
-            </button>
-            <!-- <div
-              class="backdrop-blur-md bg-white/80 px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg border border-white/30 shadow-sm">
-              <div class="flex items-center space-x-1 sm:space-x-2 text-xs sm:text-sm text-gray-600">
-                <CircleUserRound class="h-3 w-3 sm:h-4 sm:w-4" />
-              </div>
-            </div> -->
-          </div>
         </div>
       </div>
     </header>

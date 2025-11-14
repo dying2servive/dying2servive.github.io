@@ -56,9 +56,9 @@ export default defineConfig({
         ],
       },
       manifest: {
-        name: '我不是药神',
+        name: '我不是药神（青春版）',
         short_name: '我不是药神',
-        description: '我不是药神（青春版）',
+        description: '专业伟哥, 他达那非, 伐地那非, 延时, 增粗, 达泊西丁,  必利劲',
         theme_color: '#0891b2',
         background_color: '#ffffff',
         display: 'standalone',

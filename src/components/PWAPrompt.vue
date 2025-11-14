@@ -2,7 +2,7 @@
   <div v-if="showPrompt" class="fixed bottom-4 left-4 right-4 z-50 sm:left-auto sm:right-4 sm:max-w-sm">
     <div class="backdrop-blur-lg bg-white/90 border border-white/30 rounded-2xl p-4 shadow-xl">
       <div class="flex items-start space-x-3">
-        <div class="flex-shrink-0">
+        <div class="shrink-0">
           <img src="/pwa-192x192.png" alt="App Icon" class="w-12 h-12 rounded-xl" />
         </div>
         <div class="flex-1 min-w-0">
@@ -11,7 +11,7 @@
           <div class="flex space-x-2 mt-3">
             <button
               @click="installApp"
-              class="flex-1 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-xs font-medium py-2 px-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-200"
+              class="flex-1 bg-linear-to-r from-blue-500 to-indigo-600 text-white text-xs font-medium py-2 px-3 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-200"
             >
               安装
             </button>
