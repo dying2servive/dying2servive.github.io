@@ -72,15 +72,23 @@
       </div>
 
       <!-- 价格和操作 -->
-      <div class="flex items-center justify-between pt-1 sm:pt-2 border-t border-white/20">
-        <div class="flex items-center space-x-1 sm:space-x-2">
-          <span class="text-base sm:text-lg font-bold text-red-500">¥{{ medicine.price }}</span>
+      <div class="flex items-center justify-between pt-2 border-t border-gray-100">
+        <div class="flex flex-col">
+          <div class="flex items-baseline space-x-1.5">
+            <span class="text-lg sm:text-xl font-bold text-red-600">¥{{ medicine.price }}</span>
+            <span class="text-xs text-gray-400 line-through decoration-gray-400/70">¥{{ (medicine.price / 0.85).toFixed(0) }}</span>
+          </div>
+          <div class="flex">
+            <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-red-50 text-red-600 border border-red-100">
+              新年特惠
+            </span>
+          </div>
         </div>
         <button
           @click.stop="addToCart()"
-          class="px-2 sm:px-4 py-1.5 sm:py-2 bg-linear-to-r from-blue-500 to-indigo-600 text-white rounded-md sm:rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-200 shadow-lg hover:shadow-xl text-xs sm:text-sm font-medium"
+          class="flex items-center space-x-1 px-3 sm:px-4 py-1.5 sm:py-2 bg-linear-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 shadow-md hover:shadow-lg text-xs sm:text-sm font-medium active:scale-95"
         >
-          <ShoppingCart class="h-3 w-3 sm:h-4 sm:w-4" />
+          <ShoppingCart class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
           <span class="hidden xs:inline">加入购物车</span>
         </button>
       </div>

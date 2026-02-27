@@ -84,7 +84,15 @@
                 </div>
                 <div class="flex items-center justify-between">
                   <span class="text-gray-600">价格</span>
-                  <span class="text-xl font-bold text-red-500">¥{{ medicine.price }}</span>
+                  <div class="flex flex-col items-end">
+                    <div class="flex items-center gap-2 flex-wrap justify-end">
+                      <span class="text-sm text-gray-400 line-through decoration-gray-400/70">¥{{ (medicine.price / 0.85).toFixed(0) }}</span>
+                      <span class="text-xl font-bold text-red-600">¥{{ medicine.price }}</span>
+                      <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-600 border border-red-200 whitespace-nowrap">
+                        新年特惠
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
