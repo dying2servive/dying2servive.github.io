@@ -1,0 +1,623 @@
+{
+    "data": [
+        {
+            "name": "黑水鬼",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "4代双效，拒绝副作用，可以喝酒，越喝越猛。\n阿伐那非200mg +  Bismarck劲60mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/black-ghost.png"
+            ]
+        },
+        {
+            "name": "绿水鬼",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 388,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "温和无刺激，拒绝副作用，可以喝酒。阿伐那非100mg +  Bismarck劲60mg。助勃增硬+延时两种作用",
+            "images": [
+                "/assets/green-ghost.png"
+            ]
+        },
+        {
+            "name": "粉水鬼",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 318,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "最新款阿伐那非的双效片，是第4代双效药产品当中，延时最长的产品，助勃15分钟，极速起效，副作用低，且助勃药物成分不受酒精和食物影响，增加了40毫克延时成分，延时效果更好，时间更久。",
+            "images": [
+                "/assets/pink-ghost.png"
+            ]
+        },
+        {
+            "name": "红水鬼",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "第五代双效。乌地那非100mg+必利劲60mg。助勃增硬+延时两种作用",
+            "images": [
+                "/assets/red-ghost.png"
+            ]
+        },
+        {
+            "name": "白钻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 318,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "第四代双效，拒绝副作用，可以喝酒，越喝越猛。\n阿伐那非100mg +  达泊西丁100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/diamond-ghost.png"
+            ]
+        },
+        {
+            "name": "超级艾力达",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃", "延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超低副作用。印度艾力达双效片，是由印度制药厂Ambitree生产的新一代助勃延时双效产品，它是一粒橙色的小药丸，所以有个绰号叫“火焰”。这个名字就能看出它是多么的火热啦。",
+            "images": [
+                "/assets/ambitree-1.png",
+                "/assets/ambitree-2.png"
+            ]
+        },
+        {
+            "name": "金钻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超级延时，强力助勃。\n艾力达40mg  +必利劲100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/gold-diamond.png"
+            ]
+        },
+        {
+            "name": "银钻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 318,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超级延时，强力助勃。\n阿伐那非40mg +  达泊西丁60mg\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/silver-diamond.png"
+            ]
+        },
+        {
+            "name": "巅峰·紫色佳人",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 375,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "硬度高，超长延时，24小时备战，副作用小。\n艾力达40mg+必利劲100mg",
+            "images": [
+                "/assets/purple-lady.png"
+            ]
+        },
+        {
+            "name": "金女郎",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "起效快，硬度高，超长延时。\n艾力达40mg+必利劲100mg。\n助勃增硬+超级延时。",
+            "images": [
+                "/assets/golden-lady.png"
+            ]
+        },
+        {
+            "name": "金水晶",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 398,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "起效快，硬度高，超长延时。\n伐地那非40mg+必利劲60mg。\n助勃增硬+超级延时。",
+            "images": [
+                "/assets/golden-crystal.png"
+            ]
+        },
+        {
+            "name": "深渊K金",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 328,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "市面最强悍第三代伐地那非双效。\n艾力达50mg+必利劲110mg。\n助勃增硬+超级延时。",
+            "images": [
+                "/assets/golden-k.png"
+            ]
+        },
+        {
+            "name": "超级希爱力",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 328,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超长待机36小时。希爱力40mg + 必利劲60mg。\n助勃增硬+延时",
+            "images": [
+                "/assets/super-cialis.png"
+            ]
+        },
+        {
+            "name": "金装超级希爱力",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "金枪鱼不倒。他达那非40mg +  达泊西丁60mg。\n助勃增硬+延时",
+            "images": [
+                "/assets/super-cialis-golden.png"
+            ]
+        },
+        {
+            "name": "巅峰·粉色佳人",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "药效持久，超长延时，36小时备战。\n他达那非50mg+达泊西丁100mg",
+            "images": [
+                "/assets/pink-lady.png"
+            ]
+        },
+        {
+            "name": "红魔",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超长待机36小时。\n希爱力40mg +必利劲100mg。\n（助勃增硬+延时两种作用）",
+            "images": [
+                "/assets/red-monster.png"
+            ]
+        },
+        {
+            "name": "超级必利劲",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 335,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "轻微助勃，强力延时，长跑冠军，国内销量前三的爆款产品。\n20mg希爱力+100mg必利劲",
+            "images": [
+                "/assets/super-priligy.png"
+            ]
+        },
+        {
+            "name": "红水晶",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 398,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超级双效，拒绝副作用。\n助勃增硬+延时",
+            "images": [
+                "/assets/red-crystal.png"
+            ]
+        },
+        {
+            "name": "红钻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超长待机36小时。\n希爱力40mg +必利劲100mg。\n（助勃增硬+延时两种作用）。服用时候可能有轻微头晕副作用",
+            "images": [
+                "/assets/red-diamond.png"
+            ]
+        },
+        {
+            "name": "双效绿膜",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 378,
+            "star": 5.0,
+            "spec": "1盒10片",
+            "description": "像含一片口香糖，通过舌头直接吸收，药效吸收快且稳定，无需繁琐的饮水服用，规避了了恶心，消化不良等副作用，最快15分钟起效，可适量饮酒，真正的高端产品！",
+            "images": [
+                "/assets/dual-effect-film-1.png",
+                "/assets/dual-effect-film-2.png"
+            ]
+        },
+        {
+            "name": "蓝P",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 328,
+            "star": 5.0,
+            "spec": "1盒4粒",
+            "description": "战神专属，桩机必备。\n万艾可100mg+必利劲100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-p.png"
+            ]
+        },
+        {
+            "name": "巅峰蓝P",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "战神专属，桩机必备。\n万艾可110mg+必利劲110mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-p-new.png"
+            ]
+        },
+        {
+            "name": "蓝蝌蚪",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "明星产品，\n强力助勃。万艾可100mg+必利劲100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-tadpole.png"
+            ]
+        },
+        {
+            "name": "蓝钻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "够硬更持久，明星产品。\n万艾可100mg +必利劲100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-diamond.png"
+            ]
+        },
+        {
+            "name": "绿P",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "1盒4粒",
+            "description": "战神专属，桩机必备。\n万艾可100mg+必利劲60mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/green-p.png"
+            ]
+        },
+        {
+            "name": "蓝水晶",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 378,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超级万艾可双效。\n西地那非100mg+ 达泊西丁100mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-crystal.png"
+            ]
+        },
+        {
+            "name": "蓝色风暴",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "更强助勃，更小副作用。\n西地那非200mg+ 达泊西丁60mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/blue-storm.png"
+            ]
+        },
+        {
+            "name": "黄战狮",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 378,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "超强助勃，超强延时。\n西地那非120mg+ 达泊西丁120mg。\n助勃增硬+延时两种作用",
+            "images": [
+                "/assets/yellow-warrior.png"
+            ]
+        },
+        {
+            "name": "超级卡马格卡双效",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 318,
+            "star": 5.0,
+            "spec": "1盒4粒",
+            "description": "印度超级卡玛（高端万艾可双效片）一粒见效,一吃就硬。\n丁丁很软，无法给她猛烈的快感\n中途疲软，每次啪啪啪都不尽兴\n老婆反感，性生活时间越来越短\n印度进口·超级卡玛💗让你雄壮坚挺满足娇妻女友",
+            "images": [
+                "/assets/super-kamagra.png"
+            ]
+        },
+        {
+            "name": "KASO 深渊K蓝",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 398,
+            "star": 5.0,
+            "spec": "1盒10粒",
+            "description": "用于解决男性勃起和早泄的药物，由 KASO药业生产，此款更适合对硬度有极致追求硬度基础差的用户，硬度五星，延时效果一样猛。西地那非150mg+达泊西汀110mg",
+            "images": [
+                "/assets/blue-k.png"
+            ]
+        },
+        {
+            "name": "白果冻",
+            "category": ["男士"],
+            "tags": ["助勃", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "100mg*7袋",
+            "description": "印度知名男性产品，比伟哥效果更直接 -- 西地那非果冻",
+            "images": [
+                "/assets/white-jelly.png"
+            ]
+        },
+        {
+            "name": "绿P果冻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒7袋",
+            "description": "男用果冻 延时 助勃 携带方便！",
+            "images": [
+                "/assets/green-p-jelly.png"
+            ]
+        },
+        {
+            "name": "希爱力双效果冻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒7袋",
+            "description": "橘子口味，起效快，副作用小。\n希爱力20mg+必利劲60mg。\n助勃增硬+延长时间",
+            "images": [
+                "/assets/cialis-jelly.png"
+            ]
+        },
+        {
+            "name": "艾力达双效果冻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒7袋",
+            "description": "液体胶壮，吸收快，开袋即食，方便携带。艾力达20mg+必利劲60mg。助勃增硬+超级延时",
+            "images": [
+                "/assets/elida-jelly.png"
+            ]
+        },
+        {
+            "name": "卡马格卡双效果冻",
+            "category": ["男士"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 378,
+            "star": 5.0,
+            "spec": "1盒7袋",
+            "description": "以坚硬持久而著称，水果味。服用更方便，吸收更直接。",
+            "images": [
+                "/assets/kamagra-jelly-1.png",
+                "/assets/kamagra-jelly-2.png"
+            ]
+        },
+        {
+            "name": "希爱力调理5mg",
+            "category": ["男士", "治疗调理"],
+            "tags": ["助勃"],
+            "price": 398,
+            "star": 5.0,
+            "spec": "1盒100粒",
+            "description": "温和调理，无任何副作用，治疗勃起不良，中途疲软，久坐导致的勃起不良",
+            "images": [
+                "/assets/cialis-cure.png"
+            ]
+        },
+        {
+            "name": "单效艾力达（20mg）",
+            "category": ["男士", "治疗调理"],
+            "tags": ["助勃"],
+            "price": 330,
+            "star": 5.0,
+            "spec": "1盒30粒",
+            "description": "吸收快，副作用小，温和助勃吸收快",
+            "images": [
+                "/assets/elida.png"
+            ]
+        },
+        {
+            "name": "宵战",
+            "category": ["男士"],
+            "tags": ["早泄", "延时"],
+            "price": 398,
+            "star": 5.0,
+            "spec": "可用50次左右",
+            "description": "霄战到货 延时神器。\n不麻不木 可口可舔。\n植物提取 不烧不灼。\n体积小巧 携带方便",
+            "images": [
+                "/assets/stay-night.png"
+            ]
+        },
+        {
+            "name": "亨久三代加强版",
+            "category": ["男士"],
+            "tags": ["早泄", "延时"],
+            "price": 568,
+            "star": 5.0,
+            "spec": "可用50次左右",
+            "description": "不麻不木，可口可舔.植物提取、不烧不木",
+            "images": [
+                "/assets/blisswater-1.png",
+                "/assets/blisswater-2.png"
+            ]
+        },
+        {
+            "name": "小绿瓶增大增粗",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 358,
+            "star": 5.0,
+            "spec": "一瓶10粒，6瓶一疗程",
+            "description": "神秘的阿育吠陀古老配方，增大增硬增粗，3瓶见效。\n草本配方，无副作用！",
+            "images": [
+                "/assets/green-small-cure.png"
+            ]
+        },
+        {
+            "name": "小金瓶增大增粗",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 428,
+            "star": 5.0,
+            "spec": "一盒15粒",
+            "description": "为难人提供源源不断的能量，约会必备！",
+            "images": [
+                "/assets/small-golden-cure.png",
+                "/assets/small-golden-cure-2.png"
+            ]
+        },
+        {
+            "name": "小黑瓶拯救性福",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 498,
+            "star": 5.0,
+            "spec": "一瓶30粒 2瓶一疗程",
+            "description": "植物配方 无副作用。\n治疗无精/少精。\n治疗早些问题/增加耐力。\n改善性生活，做回猛男！",
+            "images": [
+                "/assets/small-black-cure.png"
+            ]
+        },
+        {
+            "name": "金刚马胶囊",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 378,
+            "star": 5.0,
+            "spec": "一盒30粒，三盒一疗程",
+            "description": "印度草本配方，纯植物天然提取，无副作用，补肾壮阳，治疗阳痿早泄，固精益气。\n临睡前服用，搭配牛奶效果更佳！",
+            "images": [
+                "/assets/hypower-musli.png"
+            ]
+        },
+        {
+            "name": "金虎胶囊",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 348,
+            "star": 5.0,
+            "spec": "一盒12粒",
+            "description": "壮阳补肾 增强免疫 益精明目\n消除疲劳 健脾益肾 延缓衰老\n提升睾酮 增长力量 滋养生精",
+            "images": [
+                "/assets/golden-shilajit.png"
+            ]
+        },
+        {
+            "name": "印度神油",
+            "category": ["男士", "治疗调理"],
+            "tags": ["早泄", "助勃","延时", "增粗"],
+            "price": 388,
+            "star": 5.0,
+            "spec": "1盒大概能用15天，3盒一疗程",
+            "description": "增加勃起频率和硬度。延长性行为时间（需要一个月的使用来见效）。增大男性生殖器尺寸（80%以下35岁的男性可能会受益）。\n每次滴5-8滴在阴茎的海绵组织和睾丸上。然后按摩五分钟以促进吸收。每天早晚各使用一次，避免在使用后的三小时内接触水。不建议在使用后的当晚进行性行为以确保阴茎充分休息，但可以如果需要的话。皇帝油有助于滋养睾丸，增加男性的性能力",
+            "images": [
+                "/assets/india-god-liquid.png"
+            ]
+        },
+        {
+            "name": "女用伟哥",
+            "category": ["女士", "催情"],
+            "tags": [],
+            "price": 318,
+            "star": 5.0,
+            "spec": "1盒4粒",
+            "description": "提高女性性欲 愛液分泌增多\n適用於性冷感 身體微熱敏感\n使人狀熊興奮 容易獲得高潮",
+            "images": [
+                "/assets/female-viagra.png"
+            ]
+        },
+        {
+            "name": "女用催情果冻",
+            "category": ["女士", "催情"],
+            "tags": [],
+            "price": 358,
+            "star": 5.0,
+            "spec": "1盒*7袋",
+            "description": "爱液增加\n欲望增强\n提升快感\n让女人更加抚魅",
+            "images": [
+                "/assets/female-jelly-sildenafil.png"
+            ]
+        },
+        {
+            "name": "女神之恋",
+            "category": ["女士", "催情"],
+            "tags": [],
+            "price": 368,
+            "star": 5.0,
+            "spec": "1盒*6粒",
+            "description": "女士福音！单纯助情，增加性爱乐趣！",
+            "images": [
+                "/assets/female-kiss-glod.png"
+            ]
+        },
+        {
+            "name": "卡宴伟姐",
+            "category": ["女士", "催情"],
+            "tags": [],
+            "price": 428,
+            "star": 5.0,
+            "spec": "1盒*6瓶",
+            "description": "温和催情。服用后数分钟即可使大腿内侧阵阵发痒，阴道内壁收缩，穴口爱液流出瞬间产生原始性冲动，面红口渴急欲交欢渴望做爱。身体异常敏感，子宫会伴有持续性有节奏的收缩，快感阵阵在半直意识状况下仍会大声叫床。\n适用于性冷淡，性反应迟钝，房事阴道干涩等夫妻男女朋友",
+            "images": [
+                "/assets/female-kayan-weijie.png"
+            ]
+        }
+    ],
+    "caveat": [
+        "最近发生过中风和心脏病发作、低血压或某些罕见的遗传性眼病和色素性视网膜炎病人禁用",
+        "有严重心血管病既往史和严重肝损害病人、严重肾损害、活动性消化性溃疡和出血症病人慎用",
+        "本品禁止与NO供体（如任何一种短效或长效硝酸酯类药物），禁止与硝酸盐类药物一起服用",
+        "90天内心肌梗塞、心绞痛、心律失常、低血压（<90/50mmHg）,或难治性高血压患者禁用",
+        "妇女及哺乳期孕妇禁用，未成年儿童及60岁以上老人禁用",
+        "禁止与其他药物一起服用",
+        "对药物过敏者禁止使用"
+    ],
+    "remark": [
+        "服用大约1小时左右部分人会出现临时副作用，常见的副作用有头疼、恶心、脸红、头晕。少见的会出现腹泻、鼻塞等副作用。副作用大小受每个人体质影响，类似于轻度感冒，会在18小时左右消失。",
+        "常见不适反应是暂时的，多喝温水（红糖水、含糖饮料最好500毫升）会有缓解的作用。"
+    ],
+    "guide": [
+        "1：扫描二维码添加好友",
+        "2：选择产品",
+        "3：留收货地址姓名电话",
+        "4：按照收款方式付款",
+        "5：付款成功截图",
+        "6：安排发货"
+    ],
+    "delivery": [
+        "一盒起发，全国包邮。无试用装，无货到付款！",
+        "保护隐私，顺丰发货",
+        "当天16:00前下单，最快当天晚上 22:00 更新物流顺丰信息。"
+    ]
+}
