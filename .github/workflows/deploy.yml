@@ -38,6 +38,9 @@ jobs:
         echo "开始构建..."
         npm run build
         
+        # 为 GitHub Pages 添加 SPA 路由回退支持
+        cp dist/index.html dist/404.html
+        
         echo "=== 完整的 dist 目录结构 ==="
         find dist/ -type f | sort
         
