@@ -15,6 +15,10 @@ const page = ref(1)
 const limit = ref(10)
 const total = ref(0)
 
+const getProductImageSrc = (image: string) => {
+  return `${import.meta.env.VITE_API_BASE_URL}${image}`
+}
+
 const loadProducts = async () => {
   loading.value = true
   try {
@@ -119,7 +123,7 @@ onMounted(loadProducts)
               <td class="whitespace-nowrap py-4 pl-6 pr-3">
                 <div class="flex items-center">
                   <div class="h-12 w-12 flex-shrink-0">
-                    <img class="h-12 w-12 rounded-lg object-cover bg-gray-100 shadow-sm" :src="product.images[0] || '/placeholder.png'" :alt="product.name" />
+                    <img class="h-12 w-12 rounded-lg object-cover bg-gray-100 shadow-sm" :src="getProductImageSrc(product.images[0] || '/placeholder.png')" :alt="product.name" />
                   </div>
                   <div class="ml-4">
                     <div class="font-semibold text-gray-900">{{ product.name }}</div>

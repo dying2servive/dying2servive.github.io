@@ -9,7 +9,6 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   const apiTarget = env.VITE_API_TARGET || 'http://localhost:8080'
-  const orderApiTarget = env.VITE_ORDER_API_TARGET || 'http://localhost:8000'
 
   return {
     css: {
@@ -23,7 +22,7 @@ export default defineConfig(({ mode }) => {
       injectRegister: 'auto',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,vue,txt,woff2}'],
-        navigateFallback: '/offline.html',
+        navigateFallback: 'index.html',
         navigateFallbackDenylist: [/^\/api/],
         runtimeCaching: [
           {
@@ -77,6 +76,10 @@ export default defineConfig(({ mode }) => {
         ],
         shortcuts: [],
       },
+      devOptions: {
+        enabled: true,
+        type: 'module',
+      },
     }),
   ],
   resolve: {
@@ -93,12 +96,7 @@ export default defineConfig(({ mode }) => {
       '/uploads': {
         target: apiTarget,
         changeOrigin: true,
-      },
-      '/order-api': {
-        target: orderApiTarget,
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/order-api/, '/api')
-      },
+      }
     }
   }
   }

@@ -154,8 +154,9 @@ onMounted(() => {
   observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
+        console.log('图片进入可视区域', props.medicine.images![0])
         if (!realSrc.value) {
-          realSrc.value = props.medicine.images![0] as string
+          realSrc.value = `${import.meta.env.VITE_API_BASE_URL}${props.medicine.images![0]}`
         }
         observer && observer.unobserve(entry.target)
       }

@@ -47,6 +47,10 @@ onMounted(async () => {
   }
 })
 
+const getProductImageSrc = (image: string) => {
+  return `${import.meta.env.VITE_API_BASE_URL}${image}`
+}
+
 const saveProduct = async () => {
   saving.value = true
   // Process inputs
@@ -229,7 +233,7 @@ const removeImage = (idx: number) => {
                   :key="idx" 
                   class="group relative aspect-square bg-white rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <img :src="img" class="h-full w-full object-cover" />
+                  <img :src="getProductImageSrc(img)" class="h-full w-full object-cover" />
                   <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
                   <button 
                     @click.prevent="removeImage(Number(idx))" 

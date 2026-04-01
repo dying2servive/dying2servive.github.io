@@ -8,6 +8,7 @@ import { registerSW } from 'virtual:pwa-register'
 
 // 新方案：使用 vite-plugin-pwa 提供的官方更新机制
 const updateSW = registerSW({
+  immediate: true, // 在开发模式下强制立即检查更新和注册
   onNeedRefresh() {
     if (confirm('发现新版本，是否立即刷新页面更新？')) {
       updateSW(true) // 这会触发 skipWaiting 并刷新页面
