@@ -209,8 +209,8 @@
 
       <!-- 图片容器 -->
       <div class="relative w-full h-full flex items-center justify-center p-4">
-        <img v-if="displayImages[previewImageIndex]" :src="displayImages[previewImageIndex]"
-          :alt="`${medicine.name} - 预览 ${previewImageIndex + 1}`"
+        <img v-if="displayImages[previewImageIndex]" :src="getProductImageSrc(displayImages[previewImageIndex] || '')"
+          :alt="`${props.medicine.name} - 预览 ${previewImageIndex + 1}`"
           class="max-w-full max-h-full object-contain rounded-lg" />
       </div>
     </div>
@@ -275,6 +275,10 @@
   const addToCart = () => {
     emit('addToCart', props.medicine)
     close()
+  }
+
+  const getProductImageSrc = (image: string) => {
+    return `${import.meta.env.VITE_API_BASE_URL}${image}`
   }
 
   const previousImage = () => {
